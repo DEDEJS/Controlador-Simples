@@ -1,0 +1,43 @@
+main.form-main{
+    background-color: white;
+}
+form{
+    width: 70%;
+    background-color: aqua;
+    border-radius: 2px;
+    border:none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+}
+form h1{
+    text-align: center;
+    margin-top: 1%;
+}
+form input[type=email], form input[type=password], form input[type=text]{
+    padding: 2%;
+    font-size: larger;
+    border:none;
+    border-radius: 2px;
+    width: 60%;
+    top:2%;
+    margin-left: 15%;
+}
+form p{
+    color:red;
+    margin-top: 1%;
+    margin-left: 16%;
+}
+form input[type=submit]{
+    padding: 1%;
+    font-size: large;
+    border: none;
+    border-radius: 3px;
+    width: 35%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    margin-left: 30%;
+}

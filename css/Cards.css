@@ -1,0 +1,37 @@
+section .Card{
+    width: 90%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+section .Card .model-box{
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 2%;
+ }
+ section .Card-box img, section .CardTenis img, section .Card-box-Alterar{
+     display: block;
+     margin-left: auto; 
+     margin-right: auto; 
+     margin-top: 2%;
+     max-width: 70%;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ section .Card .Card-box h2, section .Card .CardTenis h2  ,section .Card{
+    padding: 1%;
+    text-align: center;
+  }
+  .Card-box-Alterar{
+    width:35%;
+    display: grid;
+    grid-template-columns: auto ;
+    padding-bottom: 3%;
+}
+.Card-box button{
+    padding:2%;
+    margin-top:2%;
+    cursor:pointer;
+    border-radius:5px;
+    border:none;
+    width:40%;
+  } 

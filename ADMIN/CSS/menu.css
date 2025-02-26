@@ -1,0 +1,46 @@
+nav {
+    height: 70px;
+    width:100%;
+}
+ nav img{
+    display: none;
+}
+nav li{
+
+    position:relative;
+    float:left;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+nav ul li{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: large;
+    margin-left: 8%;
+}
+nav ul li .PaginaInicialNav , nav ul li .ProdutosNav , nav ul li .EstoqueNav , nav ul li .CadastrarNav{
+    border-bottom: 6px solid rgb(255, 0, 0);
+}
+nav ul li a:hover{
+    border-bottom: 6px solid rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 700px){
+nav ul li{
+    display: none;
+}
+nav img{
+    display: block;
+    margin-left: 5%;
+     padding: 1%;
+     cursor: pointer;
+}
+nav ul img{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+header{
+    padding: 0%;
+}
+}

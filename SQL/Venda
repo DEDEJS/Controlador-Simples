@@ -1,0 +1,1 @@
+CREATE TABLE `sistemaadminloja`.`venda` (`IdVenda` INT(10) NOT NULL AUTO_INCREMENT , `IdUser` INT(10) NOT NULL , `IdProduto` INT(10) NOT NULL , `Quantidade` INT(10) NOT NULL , PRIMARY KEY (`IdVenda`)) ENGINE = InnoDB;

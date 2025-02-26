@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family:"sans-serif",arial,Helvetica !important;
+    position:relative;
+    list-style:none;
+    text-decoration:none;
+    outline:0;
+}
+main{
+   /* background-color: #8c8cf1;*/
+   background-color: rgb(241, 237, 237);
+    height: 390px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+main .descricao{
+    padding: 5%;
+    margin-left: 5%;
+    word-spacing: 5%;
+}
+main .MainImg{
+    padding: 5%;
+    margin-left: 15%;
+}
+main .MainImg img{
+    max-width: 32%;
+}
+section {
+    padding: 2%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 2%;
+}
+section .options{
+    width: 50%;
+}
+section .options p, section .options img{
+    margin-left: 60%;
+}
+.pesquisa{
+  margin-top: -5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+section form {
+    width: 80%;
+
+}
+section form input[type='text']{
+    width: 70%;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    border: none;
+    font-size: larger;
+    text-align: center;
+}
+section form img{
+    width: 6vh;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+ .MaisVendidos{
+    text-align: center;
+    
+ }
+footer{
+    background-color: rgb(205, 203, 203);
+    margin-top: 4%;
+    width: 100%;
+}

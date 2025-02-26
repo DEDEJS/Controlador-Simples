@@ -1,0 +1,158 @@
+*{
+    font-family: 'arial', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    max-width: 100%;
+}
+
+header{
+    background-color: rgb(100, 149, 237);
+    padding: 1%;
+}
+
+header a{
+    color:rgb(255, 255, 255);
+}
+div h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+section{
+    padding: 1%;
+    width:90%;
+    background-color: rgb(132, 145, 213);
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: auto auto 2%;
+}
+section form{
+    width:100%;
+    font-size: large;
+    margin: 0% 0% 0% 25%;
+}
+
+section form select{
+    padding: 1%;
+    width: 50%;
+    border-radius: 7px;
+    text-align: center;
+    font-size: larger;
+}
+section form input[type='image']{
+   width: 5%;
+   margin-right: 2%;
+    cursor: pointer;
+}
+
+section .AlterarProduto{
+    grid-template-columns: auto ;
+}
+section h3{
+    grid-template-columns: auto;
+}
+section .AlterarProduto input[type='number'], section .AlterarProduto select, section .AlterarProduto textarea{
+    padding: 2%;
+    border:none;
+    border-radius: 5px;
+    width:30%;
+    font-size: larger;
+}
+section .AlterarProduto input[type='number']:hover{
+border:none;
+}
+section .AlterarProduto input[type='submit']{
+    padding: 2%;
+    border: none;
+    border-radius: 3px;
+    width: 20%;
+    font-size: larger;
+    cursor: pointer;
+}
+section .ProdutosCadastrados, section .ProdutosVendidosHoje, section .ProdutosVendidosSemana{
+    background-color: aliceblue;
+    padding: 2%;
+    font-size: larger;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+main .ProdutosVendidosHojeCard,  main .ProdutosVendidosNaSemanaCard {
+display: none;
+}
+main, .Devolucao{
+    margin:2% auto 2%;
+    padding: 2%;
+    width: 50%;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(174, 240, 240);
+    text-align: center;
+    font-size: larger;
+}
+.MarktplaceMain{
+    width:95%;
+}
+main form, .Devolucao form{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+main input[type='text'], main input[type='number'], .Devolucao input[type='text'], 
+.Devolucao input[type='number']{
+    width: 60%;
+    padding: 2%;
+    border:none;
+    border-radius: 10px;
+    margin-top: 2%;
+    font-size: larger;
+    
+}
+main h3, .Devolucao h3{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+main select, .Devolucao select{
+    padding: 1%;
+    width: 60%;
+    border:none;
+    border-radius:10px;
+    font-size: large;
+}
+main input[type='submit'], .Devolucao input[type='submit']{
+    cursor: pointer;
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 1%;
+    font-size: larger;
+     margin: 8% 0% 0% 80%;
+}
+
+main form p, .Devolucao form p{
+    margin-top: 3%;
+    color:red;
+
+}
+@media only screen and (max-width: 700px){
+section {
+    grid-template-columns: auto auto ;
+}
+section form select{
+    width:80%;
+}
+section form input[type="image"]{
+    width:7%;
+    float: right;
+}
+section .Produtos{
+    display: none;
+}
+
+
+}

@@ -1,0 +1,45 @@
+nav {
+    height: 20px;
+    width: 100%;
+  }
+  nav label .logo {
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav label img{
+    display: none;
+  }
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    cursor:pointer;
+  }
+  nav ul li, nav ul .active{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    cursor:pointer;
+    position:relative;
+
+  }
+ nav ul li img{
+  width:50%;
+ }
+ 
+  /*@media only screen and (max-width: 900px) {
+  
+    nav label{
+    display: none;
+   }
+   nav .carrinho{
+    display: none;
+   }
+   .MenuCelular{
+       display: block;
+   }
+   nav ul li .carrinho img{
+    margin-top: 50%;
+   }
+  }*/ 

@@ -1,0 +1,26 @@
+
+@media only screen and (max-width: 996px) {
+  nav label .Menu{
+    display: block;
+  }
+ 
+  nav .logo, nav ul .active{
+    display: none;
+    margin-right: 15%;
+  }
+ 
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav ul{
+    float:left;
+    margin-left: 45%;
+  }
+ 
+  nav ul li a{
+   color:black;
+   margin-top: -25%;
+  }
+  form select{
+    width: 10%;
+  }
+ }

@@ -1,0 +1,33 @@
+.FormAlterar{
+ width: 60%;
+ position: absolute ;
+ top: 44%; 
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+form{
+    width: 100%;
+}
+form h3{
+margin-left: 34%;
+}
+form p{
+margin-left: 33%;
+}
+form input[type=text], form input[type=number]{
+width: 90%;
+margin-left: 15%;
+}
+form select{
+    width: 95%;
+    padding: 2%;
+    margin-top: 1%;
+    margin-left: 23%;
+}
+form input[type=submit]{
+    margin-left: 25%;
+}
+form .CategoriaForm input[type=submit], form .PostadoForm input[type=submit]{
+    margin-left: 47%;
+}
+

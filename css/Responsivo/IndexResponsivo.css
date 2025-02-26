@@ -1,0 +1,61 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+main{   
+    grid-template-columns: auto;
+}
+main .descricao h2{
+    text-align: center;
+}
+main .MainImg{
+    width: 140%;
+}
+main .MainImg img{
+  margin-left: 5%;
+}
+
+section .options{
+    width: 80%;
+    text-align: inherit;
+}
+section .options img{
+    display: none;
+}
+section .Card .Card-box img, section .Card .CardTenis img{
+   width: 100%;
+   margin-top: 7%;
+}
+section .Card .Card-box h2, section .Card .CardTenis h2{
+    font-size:13px;
+    margin-top: 3%;
+}
+section .pesquisa{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 6%;    
+}
+section .pesquisa form input[type='text']{
+     text-align: center;
+     width: 80%;
+     margin-left: 3%;
+}
+section .pesquisa form span img{
+    margin-top: 8%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+main{   
+   grid-template-columns: auto;
+}
+main .descricao h2{
+    text-align: center;
+}
+main .MainImg{
+    width: 100%;
+}
+main .MainImg img{
+  margin-left: 10%;
+}
+section .Card .Card-box h2, section .Card .CardTenis h2{
+    font-size:13px;
+    margin-top: 3%;
+}
+}
